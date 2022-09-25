@@ -1,33 +1,42 @@
 {
-  "name": "gulp-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AzizShik/gulp-starter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AzizShik/gulp-starter/issues"
-  },
-  "homepage": "https://github.com/AzizShik/gulp-starter#readme",
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.27.10",
-    "del": "^7.0.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.55.0"
-  }
+	"name": "gulp-starter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./gulpfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AzizShik/gulp-starter.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AzizShik/gulp-starter/issues"
+	},
+	"homepage": "https://github.com/AzizShik/gulp-starter#readme",
+	"dependencies": {
+		"gulp-avif": "^1.1.1",
+		"node-fetch": "^2.6.1",
+		"normalize.css": "^8.0.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.19.1",
+		"@babel/preset-env": "^7.19.1",
+		"browser-sync": "^2.27.10",
+		"del": "^7.0.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean": "^0.4.0",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-terser": "^2.1.0",
+		"gulp-webp": "^4.0.1",
+		"sass": "^1.55.0"
+	}
 }

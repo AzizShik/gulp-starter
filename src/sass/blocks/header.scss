@@ -1,4 +1,42 @@
-h1 {
-  text-align: center;
+.header {
+	background: $main;
 }
 
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.nav {
+	max-width: 400px;
+	width: 100%;
+}
+
+.nav__list {
+	max-width: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__link {
+	display: inline-block;
+	font-size: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: 2px solid grey;
+	transition: all 0.3s ease;
+	padding: 5px;
+}
+
+.nav__link:hover {
+	opacity: 0.9;
+	border-bottom: 2px solid rgb(255, 255, 255);
+}

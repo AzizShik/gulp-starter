@@ -3,3 +3,31 @@
 @import '_fonts.scss';
 @import '_config.scss';
 @import 'blocks/header.scss';
+
+.gulp {
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-top: 50px;
+	padding-bottom: 100px;
+
+	h1 {
+		margin: 0;
+	}
+
+	&__photos {
+    margin-top: 30px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.gulp__title {
+	color: #333;
+	text-align: center;
+	font-size: 48px;
+	text-transform: uppercase;
+}
